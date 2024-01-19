@@ -5,7 +5,7 @@ import numpy as np
 import os
 
 # Load your YOLOv5 model from Ultralytics
-model = YOLO('best.pt')
+model = YOLO('weights/best.pt')
 
 def save_video(frames, output_video_path, fps=30):
     # Get the height and width from the first frame
