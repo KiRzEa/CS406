@@ -11,7 +11,7 @@
 
 This repository contains scripts for training a YOLO model on GTSRB dataset for Object Detection task.
 # Dataset #
-[German Traffic Sign Recognition Dataset (GTSRB)](http://benchmark.ini.rub.de/index.php?section=gtsrb&subsection=about) is an image classification dataset.  
+[German Traffic Sign Recognition Dataset (GTSRB)](https://benchmark.ini.rub.de/gtsrb_news.html) is an image classification dataset.  
 The images are photos of traffic signs. The images are classified into 43 classes. The training set contains 39209 labeled images and the test set contains 12630 images. Labels for the test set are not published.  
 See more details [here](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset).
 # Model #
