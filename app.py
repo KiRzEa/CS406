@@ -44,8 +44,9 @@ iface = gr.Interface(
         'video/video4.mp4',
         'video/video5.mp4',
     ],
-    cache_examples=True
+    cache_examples=True,
+    live=True
 )
 
 # Launch the Gradio interface for video
-iface.launch()
+iface.launch(share=True)
